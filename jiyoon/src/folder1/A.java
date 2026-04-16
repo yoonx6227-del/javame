@@ -1,4 +1,4 @@
-package folder1;
+package folder1; //패키지는 1행에 무조건
 
 public class A {
     
@@ -14,10 +14,11 @@ public class A {
         method1();
         method2();
         method3();
-        System.out.println("생성자로 객체가 생성되었습니다.");
+        //System.out.println("생성자로 객체가 생성되었습니다.");
     }
 
     public void method1(){}
     void method2 (){}
     private void method3(){}
 }
+//라이브러리 클래스라 실행이 안됨, 활용클래스 따로 만들어야함
