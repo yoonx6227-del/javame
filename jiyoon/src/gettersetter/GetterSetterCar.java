@@ -1,6 +1,6 @@
-package gettet_setter;
+package gettersetter;
 
-public class Car8 {
+public class GetterSetterCar {
     
     private int speed;
     private boolean stop;
@@ -24,4 +24,4 @@ public class Car8 {
         this.stop = stop;
         this.speed = 0;
     }
-} 
+}

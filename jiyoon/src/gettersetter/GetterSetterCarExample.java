@@ -1,13 +1,13 @@
-package gettet_setter;
+package gettersetter;
 
-public class CarExample8 {
+public class GetterSetterCarExample {
     public static void main(String[] args) {
         
-        Car8 myCar = new Car8();
+        GetterSetterCar myCar = new GetterSetterCar();
 
         myCar.setSpeed(-50);
 
-        System.out.println(("현재속도: " + myCar.getSpeed());
+        System.out.println("현재속도: " + myCar.getSpeed());
 
         myCar.setSpeed(60);
 
@@ -16,5 +16,4 @@ public class CarExample8 {
         }
         System.out.println("현재 속도: " + myCar.getSpeed());
     }
-}   
-
+}
